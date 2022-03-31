@@ -13,10 +13,12 @@ Trabalho realizado para a disciplina de Desenvolvimento Web, que consiste em des
 ## Pacotes e descrição das apis
 ### model
 * Artigo.java
+
 Os modelos desenvolvidos contém todas as instâncias dos atributos, os setters e os getters para cada atributo, métodos construtores, método ToSring, além de utilizar notações do Spring para determinar regras de Bando de dados, como chaves primárias e estrangeiras, e também o valor lógico de um atributo.
 
 ### repository
 * ArtigoRepository.java
+
 No repositório de artigo criado, extendemos o Repositório JPA que contém vários métodos para utilizarmos no Controller e além disso pode-se criar novos metódos.
 
 ### controllers
@@ -26,6 +28,7 @@ No repositório de artigo criado, extendemos o Repositório JPA que contém vár
 * HomeController.java
 * ListarController.java
 * SecController.java
+
 Nos controladores criados as regras de negócio do nosso sistema, podendo utilizar os métodos do Repositório ArtigoRepository.java. Essas regras são criação, edição, deleção e listagem de artigos.
 
 #### Funcionalidades
